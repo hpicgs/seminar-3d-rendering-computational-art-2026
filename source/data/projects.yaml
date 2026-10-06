@@ -1,5 +1,5 @@
 - name: Unstill Life – Cosmic Space
-  url: - https://yeji0205.github.io/unstil-life-yegi-park/
+  url: https://yeji0205.github.io/unstil-life-yegi-park/
   img: unstil-life-cosmic-space.png
   contributors:
     - name: Yegi Park
@@ -12,31 +12,31 @@
     genre while turning it into a dynamic experience, where ambient sound deepens the immersion.
 
 - name: Unstill Life – Lava
-  url: - #
+  url: "#"
   img: test_image.png
-  contributors:
+  contributors: []
   description:
 
 - name: Unstill Life – Landscape
-  url: - #
+  url: "#"
   img: test_image.png
-  contributors:
+  contributors: []
   description:
 
 - name: T-1003
-  url: - #
+  url: "#"
   img: test_image.png
-  contributors:
+  contributors: []
   description:
 
 - name: Hue Space
-  url: - #
+  url: "#"
   img: test_image.png
-  contributors:
+  contributors: []
   description:
 
 - name: Noise Space
-  url: - #
+  url: "#"
   img: test_image.png
-  contributors:
+  contributors: []
   description:

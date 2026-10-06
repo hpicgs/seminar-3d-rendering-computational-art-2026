@@ -11,6 +11,7 @@ module.exports = {
   	output: {
     	path: __dirname + "/build",
     	filename: "index_bundle.js",
+        publicPath: "", // Keep asset URLs relative for GitHub Pages project sites.
   	},
 	mode: "development",
   	plugins: [index],
@@ -33,8 +34,11 @@ module.exports = {
             {
                 test: /\.pug$/,
                 use: {
-                    loader: 'pug-loader',
-                    options: { root: path.resolve(__dirname, 'source/pages') }
+                    loader: '@webdiscus/pug-loader',
+                    options: {
+                        mode: 'compile',
+                        basedir: path.resolve(__dirname, 'source/pages')
+                    }
                 },
             },
             {
@@ -67,12 +71,10 @@ module.exports = {
             {
                 test: /\.(json)$/,
                 type: 'json',
-                generator: { filename: 'dat/[name]_[hash:4][ext]' }
             },
             {
                 test: /\.ya?ml$/,
                 type: 'json',
-                generator: { filename: 'dat/[name]_[hash:4][ext]' },
                 use: {
                     loader: 'yaml-loader',
                     options: { asJSON: true },
