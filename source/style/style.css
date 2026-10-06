@@ -1,0 +1,35 @@
+@import '~katex/dist/katex.min.css';
+@import '~highlight.js/styles/atom-one-dark.css';
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './link.css';
+@import './navbar.css';
+@import './sizes.css';
+@import './themes.css';
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+section {
+    padding: 1.5rem 0 0;
+}
+
+.row {
+    margin-top: 1.5rem;
+}
+
+.logo-link {
+    height: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.2em;
+    margin: 0 0.1ex;
+    width: auto;
+}
+
+.nowrap {
+    white-space: nowrap;
+}

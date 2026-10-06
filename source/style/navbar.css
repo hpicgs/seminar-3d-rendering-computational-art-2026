@@ -1,0 +1,26 @@
+#seminar-navbar {
+    background-color: var(--navbar-background-color);
+    color: var(--navbar-text-color);
+    border-color: var(--navbar-background-color);
+}
+
+.navbar img {
+    height: 2.5rem;
+    width: auto;
+    vertical-align: middle;
+}
+
+.nav-link {
+    padding: 0 0 0 0;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+nav ul#nav.navbar-nav li.nav-item a.nav-link {
+    padding-left: 1rem;
+    padding-right: 0;
+}
+
+nav ul.navbar-nav {
+    flex-direction: row;
+}

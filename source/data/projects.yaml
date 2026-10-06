@@ -1,0 +1,42 @@
+- name: Unstill Life – Cosmic Space
+  url: - https://yeji0205.github.io/unstil-life-yegi-park/
+  img: unstil-life-cosmic-space.png
+  contributors:
+    - name: Yegi Park
+      username: yeji0205
+  description: >
+    In this protoype, we developed a 3D interactive application that reinterprets the classical
+    Still Life genre as a temporally unfolding spatial artwork. The application transitions from a
+    familiar Still Life room setting into cosmic space, where objects slowly drift upward and the
+    scene gives way to silence. The artistic scenery preserves the contemplative character of its
+    genre while turning it into a dynamic experience, where ambient sound deepens the immersion.
+
+- name: Unstill Life – Lava
+  url: - #
+  img: test_image.png
+  contributors:
+  description:
+
+- name: Unstill Life – Landscape
+  url: - #
+  img: test_image.png
+  contributors:
+  description:
+
+- name: T-1003
+  url: - #
+  img: test_image.png
+  contributors:
+  description:
+
+- name: Hue Space
+  url: - #
+  img: test_image.png
+  contributors:
+  description:
+
+- name: Noise Space
+  url: - #
+  img: test_image.png
+  contributors:
+  description:

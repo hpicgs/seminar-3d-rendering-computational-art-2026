@@ -1,0 +1,66 @@
+mixin gh-link(contributor)
+    - let username = contributor.username ? contributor.username : contributor.name;
+    span.nowrap
+        a(href=`https://www.github.com/${username}`)
+            img(src=require("../img/github-mark-white.png"), alt="GitHub Logo").logo-link
+            | &nbsp;#[=contributor.name]
+
+mixin project(name, link, image, contributors)
+    .col-lg-4.col-md-6.col-sm-12.mb-4
+        .card.bg-dark.border-secondary
+            img(src=image, alt=name).img-fluid.card-img-top
+            .card-body
+                h4.card-title
+                    | #[=name]
+                p.card-text
+                    if contributors.length > 1
+                        | Contributors:&nbsp;
+                    else
+                        | Contributor:&nbsp;
+                    each c, i in contributors 
+                        | #[+gh-link(c)]
+                        if i < contributors.length - 1
+                            | , 
+
+                if block 
+                    .card-text
+                        block
+
+                a(href=link).card-link Visit Website
+
+- let projects = require("../data/projects.yaml")
+html 
+    head 
+        title Seminar Landing Page
+        link(rel="stylesheet", href="https://code.cdn.mozilla.net/fonts/fira.css")
+        link(rel="icon", href=require('../img/cgs_logo.png'))
+    body.dark
+        include partials/navbar
+        section#header.container
+            .row.text-left 
+                .col-12.offset-0
+                    h2.mb-1 Introduction
+                    p
+                        | The seminar focuses on the conception and implementation of small but high-quality computer graphics
+                        | applications. Each project is expected to unite technical excellence with artistic intention. From a
+                        | technical perspective, it should make use of contemporary interactive 3D rendering methods. From
+                        | a conceptual perspective, it should be guided by a distinct artistic idea that gives the application
+                        | its purpose, coherence, and identity. The artistic idea is not an ornament added afterwards; it
+                        | is the central motivation of the work. There is no product idea in the conventional sense. What
+                        | matters instead is the quality and harmony of image, animation, sound, motion, atmosphere, and interaction.
+
+                    h2.mt-2.mb-1 Scope and Context
+                    p
+                        | We at the research group for #[a(href="https://hpi.de/doellner/home.html") Computer Graphics Systems], chaired by Prof. Dr. Jürgen Döllner, designed a project seminar at the intersection of advanced computer graphics, computational art, and agentic software development.
+                        | With six Bachelor's students, we conducted this seminar named "3D Rendering & Computational Art" in the summer semester of 2026 at Hasso Plattner Institute, Digital Engineering Faculty, University of Potsdam.
+                        | The results were as follows.
+            h1.mt-4.mb-1 Projects
+            .row
+                each p in projects
+                    +project(
+                        p.name,
+                        p.url,
+                        require(`../img/${p.img}`),
+                        p.contributors
+                    )
+                        p #{p.description}
