@@ -11,6 +11,22 @@
     scene gives way to silence. The artistic scenery preserves the contemplative character of its
     genre while turning it into a dynamic experience, where ambient sound deepens the immersion.
 
+- name: T-1003
+  url: "https://sjayv.github.io/T-1003/"
+  img: t-1003.png
+  contributors:
+    - name: Jonas Vinmann
+      username: SJayV
+  description: >
+    This interactive 3D prototype centers on an abstract, non-anthropomorphic creature. It is caught
+    in an endless cycle of composure breaking under the very gaze it tries so desperately to protect
+    itself against. Its deceptively perfect surface cannot entirely conceal how fragile it remains
+    underneath its facade. The moment it notices it is being observed, it bursts open, revealing its
+    true self and scattering its distorted components through space. Only once it believes itself
+    unobserved does it reassemble and resume its attempt to mask its undeniably alien nature. The demo
+    invites viewers to reflect on how readily we project human emotions onto a purely artificial
+    construct, and perhaps to recognize something of themselves in its Sisyphean effort.
+
 - name: Unstill Life – Lava
   url: "#"
   img: test_image.png
@@ -18,12 +34,6 @@
   description:
 
 - name: Unstill Life – Landscape
-  url: "#"
-  img: test_image.png
-  contributors: []
-  description:
-
-- name: T-1003
   url: "#"
   img: test_image.png
   contributors: []
