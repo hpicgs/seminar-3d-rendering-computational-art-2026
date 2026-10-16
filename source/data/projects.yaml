@@ -1,15 +1,18 @@
-- name: Unstill Life – Cosmic Space
+- name: Unstill Life – Vita Perpetua
   url: https://yeji0205.github.io/unstil-life-yegi-park/
-  img: unstil-life-cosmic-space.png
+  img: unstill-life-vita-perpetua.jpg
   contributors:
     - name: Yegi Park
       username: yeji0205
   description: >
-    In this protoype, we developed a 3D interactive application that reinterprets the classical
-    Still Life genre as a temporally unfolding spatial artwork. The application transitions from a
-    familiar Still Life room setting into cosmic space, where objects slowly drift upward and the
-    scene gives way to silence. The artistic scenery preserves the contemplative character of its
-    genre while turning it into a dynamic experience, where ambient sound deepens the immersion.
+    The still life is a traditional art genre that depicts inanimate objects carefully arranged
+    in a controlled space. This project extends the genre into a cosmic dimension. The room
+    slowly darkens into outer space, and the objects drift into weightlessness before fading
+    away entirely. Four objects stand for four forms of existence on Earth: a stone as inanimate
+    matter, a flower as plant, a teddy bear as animal, and a wooden mannequin as human. Their
+    quiet disappearance carries the central idea that, from a cosmic perspective, all things are
+    equally transient. They appear briefly, dissolve, and return in a new form as part of an
+    endless cycle.
 
 - name: T-1003
   url: "https://sjayv.github.io/T-1003/"
@@ -27,11 +30,17 @@
     invites viewers to reflect on how readily we project human emotions onto a purely artificial
     construct, and perhaps to recognize something of themselves in its Sisyphean effort.
 
-- name: Unstill Life – Lava
-  url: "#"
-  img: test_image.png
-  contributors: []
-  description:
+- name: Lava Landscape
+  url: "https://github.com/ShAlexHo/Cga_Lavalandschaft"
+  img: lava-landscape.png
+  contributors:
+    - name: Shyue-Shyang Alexander Ho
+      username: ShAlexHo
+  description: >
+    What happens to a still life that never stands still? Unstill Life: Lava Landscape invites
+    you to slow down and explore a volcanic landscape where lava, sun, and ash shift almost
+    imperceptibly. Metaballs give the glowing lava its soft, fluid forms. Touch the lava flow
+    and see how the terrain responds.
 
 - name: Unstill Life – Landscape
   url: "#"
