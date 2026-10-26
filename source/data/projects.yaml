@@ -31,7 +31,7 @@
     construct, and perhaps to recognize something of themselves in its Sisyphean effort.
 
 - name: Lava Landscape
-  url: "https://github.com/ShAlexHo/Cga_Lavalandschaft"
+  url: "https://www.student.informatik.tu-darmstadt.de/~sh63hevu/"
   img: lava-landscape.png
   contributors:
     - name: Shyue-Shyang Alexander Ho
@@ -41,6 +41,21 @@
     you to slow down and explore a volcanic landscape where lava, sun, and ash shift almost
     imperceptibly. Metaballs give the glowing lava its soft, fluid forms. Touch the lava flow
     and see how the terrain responds.
+  repository: https://github.com/ShAlexHo/Cga_Lavalandschaft
+
+- name: White Noise Space
+  url: "https://github.com/qustav-m/WhiteNoiseSpace"
+  img: white-noise-space.png
+  contributors:
+    - name: Gustav Meinshausen
+      username: qustav-m
+  description: >
+    White Noise Space is an interactive browser experience in which everyday 3D objects are
+    hidden behind white noise. When an object moves, the noise follows its form — briefly making
+    it visible. Movement is controlled by your head, captured through a webcam. By moving your
+    head in the right rhythm, you can deliberately rotate the hidden object. Once recognized and
+    brought into an upright position, the object is revealed in its real appearance — before the
+    screen dissolves back into noise, concealing the next object waiting to be found.
 
 - name: Unstill Life – Landscape
   url: "#"
@@ -49,12 +64,6 @@
   description:
 
 - name: Hue Space
-  url: "#"
-  img: test_image.png
-  contributors: []
-  description:
-
-- name: Noise Space
   url: "#"
   img: test_image.png
   contributors: []
