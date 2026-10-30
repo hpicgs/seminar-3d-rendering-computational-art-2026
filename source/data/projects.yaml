@@ -57,11 +57,21 @@
     brought into an upright position, the object is revealed in its real appearance — before the
     screen dissolves back into noise, concealing the next object waiting to be found.
 
-- name: Unstill Life – Landscape
-  url: "#"
-  img: test_image.png
-  contributors: []
-  description:
+- name: Unstill Life – A Shifting Landscape
+  url: "https://unstill-life.richardpieters.de/"
+  img: unstill-life-a-shaping-landscape.png
+  contributors:
+    - name: Richard Pieters
+      username: RichardPieters
+  description: >
+    At first glance, Unstill Life is a quiet landscape painting, seemingly finished and at rest.
+    Yet the painting is listening. At the slightest noise, the painting dissolves, and beneath
+    it a procedural landscape awakens. Mountains erode into scattered islands, clouds gather and
+    disperse, and nothing holds its shape for long. Only when the room grows quiet does the
+    restless world slow down, freeze, and settle stroke by stroke into a divisionist painting once
+    more. Whoever wants to see the painting must fall silent, and in that silence the living
+    landscape comes to an end. It turns the vanitas of the classical still life into a question:
+    is stillness preservation, or loss?
 
 - name: Hue Space
   url: "#"
